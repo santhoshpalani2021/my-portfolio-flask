@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Left Navbar Layout</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <link rel="stylesheet" href="css/styles.css">
   <!-- Google Fonts: Poppins -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
@@ -12,7 +12,7 @@
 <body>
 
   <div class="sidebar">
-    <img src="../static/css/styles.css" alt="Profile Photo" />
+    <img src="./images/dogg.webp" alt="Profile Photo" />
     <h2 class="username">SANTHOSHKUMAR P</h2>
     <a href="#" onclick="showSection('homeSection')">Home</a>
     <a href="#" onclick="showSection('aboutSection')">About</a>
@@ -35,7 +35,7 @@
         <!-- About content -->
         <div class="about-content">
           <div class="about-photo">
-            <img src="./dogg.webp" alt="About Photo" />
+            <img src="./images/dogg.webp" alt="About Photo" />
           </div>
       
           <div class="about-left">
@@ -217,6 +217,6 @@
     </div>
   </div>
 
-  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
