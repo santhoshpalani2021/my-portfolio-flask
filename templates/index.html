@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Left Navbar Layout</title>
+  <link rel="stylesheet" href="../static/css/styles.css" />
+  <!-- Google Fonts: Poppins -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="sidebar">
+    <img src="../static/images/dogg.webp" alt="Profile Photo" />
+    <h2 class="username">SANTHOSHKUMAR P</h2>
+    <a href="#" onclick="showSection('homeSection')">Home</a>
+    <a href="#" onclick="showSection('aboutSection')">About</a>
+    <a href="#" onclick="showSection('educationSection')">Education</a>
+    <a href="#" onclick="showSection('projectsSection')">Projects</a>
+    <a href="#" onclick="showSection('contactSection')">Contact</a>
+  </div>
+
+  <div class="main-content">
+    <div class="homeSection section active">
+      <h1>SANTHOSHKUMAR P</h1>
+      <div class="slider-text-wrapper">
+        <p class="slider-text">Welcome to my personal site.</p>
+      </div>
+    </div>
+
+
+    <!-- about section  -->
+    <div class="aboutSection section">
+        <!-- About content -->
+        <div class="about-content">
+          <div class="about-photo">
+            <img src="../static/images/dogg.webp" alt="About Photo" />
+          </div>
+      
+          <div class="about-left">
+            <h2>UI/UX Designer & Web Developer</h2>
+            <div class="about-info-grid">
+              <div><strong>Birthday:</strong> 1 May 1995</div>
+              <div><strong>Website:</strong> www.example.com</div>
+              <div><strong>Phone:</strong> +123 456 7890</div>
+              <div><strong>City:</strong> New York, USA</div>
+              <div><strong>Age:</strong> 30</div>
+              <div><strong>Degree:</strong> Master</div>
+              <div><strong>Email:</strong> email@example.com</div>
+              <div><strong>Freelance:</strong> Available</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- end of about section  -->
+
+      <!-- star education -->
+      <div class="educationSection section">
+      
+        <div class="education-timeline">
+          <div class="education-item">
+            <div class="timeline-dot"></div>
+            <div class="education-content">
+              <h3>Master of Computer Application</h3>
+              <span class="education-year">2019 - 2021</span>
+              <h4>Thiruvalluvar University, Vellore, TamilNadu</h4>
+            </div>
+          </div>
+
+          <br>
+          <br>
+          <br>
+          <div class="education-item">
+            <div class="timeline-dot"></div>
+            <div class="education-content">
+              <h3>Bachelor Computer Application</h3>
+              <span class="education-year">2016 - 2019</span>
+              <h4>Thiruvalluvar University, Vellore, TamilNadu</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end education -->
+
+      <!-- start project  -->
+      
+      <div class="projectsSection section">
+       
+      
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Remote In/Out System for College Faculty</h3>
+                <p>
+                  Developed a secure, web-based attendance system for <strong>VIT University</strong> faculty members. The platform allows professors to mark their presence remotely using a simple and intuitive dashboard.
+                </p>
+                <ul>
+                  <li>🔐 Built with <strong>Python Flask</strong> and <strong>SQLite</strong> for lightweight, fast backend</li>
+                  <li>📱 Designed with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> for a responsive UI</li>
+                  <li>🧾 Real-time attendance logging with timestamped IN/OUT records</li>
+                  <li>🛡️ Session-based login system for secure access</li>
+                </ul>
+                <p><strong>Client:</strong> VIT University | <strong>Category:</strong> Faculty Services</p>
+
+                <div class="project-links">
+                  <a href="https://github.com/your-username/your-repo" target="_blank">🔗 GitHub</a>
+                  <a href="https://your-demo-link.com" target="_blank">🚀 Live Demo / Download</a>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <h3>Faculty Meeting Attendance System</h3>
+                <p>
+                  Designed and developed a digital solution for managing and recording <strong>faculty meeting attendance</strong> at <strong>VIT University</strong>. The system enables faculty to check in for meetings and allows administrators to track attendance efficiently.
+                </p>
+                <ul>
+                  <li>🧑‍💼 Login portal for faculty and admins</li>
+                  <li>📅 Attendance marking during scheduled meetings</li>
+                  <li>📊 Admin dashboard for viewing records and summaries</li>
+                  <li>🔧 Built using <strong>Python Flask</strong>, <strong>SQLite</strong>, <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong></li>
+                </ul>
+                <p><strong>Client:</strong> VIT University | <strong>Category:</strong> Internal Faculty Tool</p>
+
+
+                <div class="project-links">
+                  <a href="https://github.com/your-username/your-repo" target="_blank">🔗 GitHub</a>
+                  <a href="https://your-demo-link.com" target="_blank">🚀 Live Demo / Download</a>
+                </div>
+              </div>
+              
+      
+         
+      
+              <div class="project-card">
+                <h3>Student & Faculty File Sharing System</h3>
+                <p>
+                  A secure web-based platform developed for <strong>VIT University</strong> to enable two-way file exchange during exams and class periods. Faculty upload question papers, students download and submit answers, and faculty review them.
+                </p>
+                <ul>
+                  <li>📤 Faculty uploads | 📥 Students download</li>
+                  <li>📁 Answer sheet upload | Faculty retrieves via dashboard</li>
+                  <li>🔐 Role-based access using Flask</li>
+                </ul>
+                <p><strong>Client:</strong> VIT University | <strong>Category:</strong> Academic Tools</p>
+              
+                <div class="project-links">
+                  <a href="https://github.com/your-username/your-repo" target="_blank">🔗 GitHub</a>
+                  <a href="https://your-demo-link.com" target="_blank">🚀 Live Demo / Download</a>
+                </div>
+              </div>
+
+
+              <div class="project-card">
+                <h3>Faculty Software Request System</h3>
+                <p>
+                  Built a web-based system for <strong>VIT University</strong> to allow faculty members to request specific software installations for student labs. Requests are routed to lab assistants who manage installation based on lab schedules and permissions.
+                </p>
+                <ul>
+                  <li>📝 Faculty submits software name, version, and lab details</li>
+                  <li>📬 Lab assistants view pending requests and mark them as completed</li>
+                  <li>🔐 Role-based login for faculty and lab assistants</li>
+                  <li>💾 Built using <strong>Python Flask</strong>, <strong>SQLite</strong>, <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong></li>
+                </ul>
+                <p><strong>Client:</strong> VIT University | <strong>Category:</strong> Lab Infrastructure Coordination</p>
+              
+                <div class="project-links">
+                  <a href="https://github.com/your-username/software-request-system" target="_blank">🔗 GitHub</a>
+                  <a href="https://your-live-demo-link.com" target="_blank">🚀 Live Demo / Download</a>
+                </div>
+              </div>
+              
+              
+          
+        </div>
+      </div>
+      
+
+    <!-- end project  -->
+
+
+    <!-- start of contact -->
+
+    <div class="contactSection section" id="contact">
+      <h1>Contact</h1>
+      <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+    
+      <div class="contact-wrapper">
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Write your message" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+    
+        <div class="contact-info">
+          <p><strong>Email:</strong> your@email.com</p>
+          <p><strong>Phone:</strong> +123 456 7890</p>
+          <p><strong>Location:</strong> VIT University, India</p>
+        </div>
+      </div>
+    </div>
+    <!-- end of contact   -->
+    <div class="contactSection section">
+      <h1>Contact</h1>
+      <p>How to contact me.</p>
+    </div>
+  </div>
+
+  <script src="../static/js/script.js"></script>
+</body>
+</html>
